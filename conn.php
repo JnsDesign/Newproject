@@ -1,10 +1,11 @@
 <?php
 $servername = "localhost";
-$username = "jnsdesig_ste";
+$username = "jnsdesig_newpro";
 $password = "qsr218ab";
+$dbname = "jnsdesig_newproject";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
